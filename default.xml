@@ -23,7 +23,7 @@
 
   <remote  name="arpi" fetch="."/>
   <remove-project name="kernel/common"/>
-  <project path="common" name="kernel_arpi" revision="arpi-5.10" remote="arpi">
+  <project path="common" name="arpi_kernel" revision="arpi-5.10" remote="arpi">
       <linkfile src="build.config.arpi" dest="build.config"/>
   </project>
 </manifest>
